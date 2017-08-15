@@ -30,7 +30,6 @@ You will need to know \ understand:
 | index.html | main page of your site |
 | server/server.js | node.js file that start the server |
 
-  ` Important! I didnt try the new server.js yet...`
 ## Themes & Templates
 You could find great `FREE` Themes & Templates in this site : [https://startbootstrap.com/]
 

@@ -9,9 +9,9 @@ var portNumber = 8081;
 //End setup parameters 		----------
 
 //start server
-app.use(express.static('../../'+mainFolder));
+app.use(express.static('../'+mainFolder));
 app.get('/', function (req, res) {
-   res.sendFile(path.join(__dirname, '../', 'index.html') );
+   res.sendFile(path.join(__dirname, '', 'index.html') );
 })
 
 var server = app.listen(portNumber, function () {
