@@ -1,7 +1,5 @@
 # A template for web application project
-
-## Before we start
-You need to know:
+Before we start, you need to know:
   - HTML5
   - CSS3
   - JavaScript
