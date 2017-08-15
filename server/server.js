@@ -2,10 +2,10 @@ var express = require('express');
 var path 	= require('path');
 var app 	= express();
 
-//Change this!
+//Change these!
 //START setup parameters 	----------
-var mainFolder = "elinda";
-var portNumber = 8081;
+var mainFolder = "NAME_OF_YOUR_PROJECT_FOLDER";
+var portNumber = 8081; // specify the server port
 //End setup parameters 		----------
 
 //start server
@@ -18,5 +18,5 @@ var server = app.listen(portNumber, function () {
    var host = server.address().address
    var port = server.address().port
    
-   console.log("Example app listening at http://%s:%s", host, port)
+   console.log("App listening at http://%s:%s", host, port)
 })
