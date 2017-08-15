@@ -20,7 +20,10 @@ Now you can work with it just like any other github repo. To pull in patches fro
 [Source: [stackoverflow](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)] 
 
 ## Execute the project
-The project contains a simple web app that communicates with our SPARQL endpoint. To execute the app:
+The project contains a simple web app that communicates with our SPARQL endpoint. To execute the app (both Linux and Windows):
+
+**Note:** you should first [install node.js](https://nodejs.org/en/download/) on your Windows system.
+
 - cd to your project's directory.
 - install express as explained [here](http://expressjs.com/en/starter/installing.html).
 - Execute: *npm start*
