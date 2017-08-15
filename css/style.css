@@ -1,0 +1,30 @@
+/*
+ *----------------------------------------------------------------------- 
+ * wrapper - the main css
+ * ----------------------------------------------------------------------- 
+ */
+body {
+  padding-top: 5rem;
+}
+button{
+	cursor: pointer;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.line{
+	width: 100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*
+ *----------------------------------------------------------------------- 
+ * example form
+ * ----------------------------------------------------------------------- 
+ */
+#exampleForm .input-group{
+	margin-bottom: 5px;
+}
+
